@@ -11,19 +11,40 @@
             
             }
             
+            img{
+                max-width: 100%;
+            }
+            
+            #copyright {
+            position: relative;
+            right: 300px
+            }
+            
+            #footer-social {
+                position: relative;
+                left: 375px
+            }
+            
             #first-section {
                 color: red;
-                background-color: lightblue
+                background-color: lightblue;
+                display: flex;
+                flex-flow: nowrap;
             }
             h1,h2,h3,h4,h5,h6 {
                 color: #304982
             }
             
             #second-section {
-                background-color: lightgreen
+                background-color: lightgreen;
+                display: flex;
+                
             }
             .second-paragraph {
-                color: darkgreen
+                color: darkgreen;
+                text-align: left;
+                right: 10000px;
+                
             }
             div {
                 width: 960px;
@@ -45,15 +66,36 @@
                 margin-right: 15px;
                 text-align: center;
                 
-                
-                
             }
-        
+            
+            #second-picture {
+                width: 1000px;
+                height: 100px;
+                position: relative;
+                left: 200px;
+                top: 200px;
+                
+                    
+            }
+            fullwidth {
+                width: 100%;
+            }
+            
+            #first-section, #second-section {
+                display: flex;
+            }
+
+            }
+            #section3 {
+                text-align: left;
+            }
         </style>
     </head>
     <body>
-        <div> 
+        <div>
+        <section class="fullwidth">    
         <img src="http://brothert.net/dryoar/images/dryoarlogo.png" alt="Dry Oar Logo">
+        </section>
         <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -64,35 +106,38 @@
             <li><a href="index.html">Contact Us</a></li>
         </ul>
         </nav>
-        
-    <section id="first-section">
+        <img src="http://brothert.net/dryoar/images/snake-rapid1.jpg" height="200" width="100%">
+    <section2 id="first-section">
         <div class="leftcol">
-        <img src="http://brothert.net/dryoar/images/snake-rapid1.jpg" height="200" width="930">
         <h1>We run Rivers to relax.</h1>
-            <p align="left"><strong>We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</strong> </p>
+            <p><strong>We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</strong> </p>
         </div>
-        <div class="rightcol">
-        <img src="http://brothert.net/dryoar/images/salmon-boats.jpg" alt="Beautiful Scienery of River" align="right">
-        </div>    
-    </section>
         
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <img src="http://brothert.net/dryoar/images/salmon-boats.jpg" alt="Beautiful Scienery of River" align="right">    
+    </section2>
+        
+       <section id="third-section"> 
         <section id="second-section">
-        <h2><img src="http://brothert.net/dryoar/images/raft-rapid.jpg" alt="Rapids loving"><br>
+            <h2>
             We run Whitewater for the Rush!</h2>
+            <section id= "second-picture"><img src="http://brothert.net/dryoar/images/raft-rapid.jpg" alt="Rapids loving">
+        </section>    
         <p class="second-paragraph">That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more. </p>
             <br>
     </section>
-        
-    <section>
+            </section>    
+    <section2>
         <h2>Come Run with us.</h2>
         <p>We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
+        <section id="copyright">
         <p>&copy; 2016 Dry Oar || Justin Perucca</p>
-    </section>
-            <a target="_blank" href="index2.html"> <img src=https://byui-cit.github.io/wdd100/images/icons/color/facebook.png></a>
+        </section>    
+    </section2>
+    <section id="footer-social">
+            <a target="_blank" href="www.facebook.com"> <img src=https://byui-cit.github.io/wdd100/images/icons/color/facebook.png></a>
             <a target="_blank" href="index2.html"> <img src=https://byui-cit.github.io/wdd100/images/icons/color/googleplus.png></a>
             <a target="_blank" href="index2.html"> <img src=https://byui-cit.github.io/wdd100/images/icons/color/instagram.png></a>
-        
+            </section>    
     </div>    
     </body>
 </html>
