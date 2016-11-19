@@ -1,8 +1,14 @@
  nav {
+     a:hover{};
             background-color: lightblue;
             color: aliceblue;
             font-family: 'Bungee Hairline', cursive;
             font-family: 'Indie Flower', cursive;
+             position:inherit;
+     left: 1000px
+     
+                
+         bottom: 30px
             
             }
             
@@ -72,8 +78,13 @@
                 
                     
             }
-            fullwidth {
-                width: 100%;
+            #fullwidth {
+                width: 110px;
+                position: relative;
+                background-color: white;
+                border-bottom-color: black;
+                
+                    
             }
             
             #first-section, #second-section {
