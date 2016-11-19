@@ -1,0 +1,86 @@
+ nav {
+            background-color: lightblue;
+            color: aliceblue;
+            font-family: 'Bungee Hairline', cursive;
+            font-family: 'Indie Flower', cursive;
+            
+            }
+            
+            img{
+                max-width: 100%;
+            }
+            
+            #copyright {
+            position: relative;
+            right: 300px
+            }
+            
+            #footer-social {
+                position: relative;
+                left: 375px
+            }
+            
+            #first-section {
+                color: red;
+                background-color: lightblue;
+                display: flex;
+                flex-flow: nowrap;
+            }
+            h1,h2,h3,h4,h5,h6 {
+                color: #304982
+            }
+            
+            #second-section {
+                background-color: lightgreen;
+                display: flex;
+                
+            }
+            .second-paragraph {
+                color: darkgreen;
+                text-align: left;
+                right: 10000px;
+                
+            }
+            div {
+                width: 960px;
+                margin: 0 auto;
+                text-align: center
+            }
+            
+            h1, h2 {
+                font-family: 'Bungee Hairline', cursive;
+                font-size: 3.2em;
+                margin-right: 5px;
+                margin-left: 5px;
+            }
+            
+            p {
+                font-family: Georgia, sans-serif;
+                font-size: 1.1em;
+                margin-left: 15px;
+                margin-right: 15px;
+                text-align: center;
+                
+            }
+            
+            #second-picture {
+                width: 1000px;
+                height: 100px;
+                position: relative;
+                left: 200px;
+                top: 200px;
+                
+                    
+            }
+            fullwidth {
+                width: 100%;
+            }
+            
+            #first-section, #second-section {
+                display: flex;
+            }
+
+            }
+            #section3 {
+                text-align: left;
+            }
